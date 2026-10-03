@@ -1,0 +1,125 @@
+{
+  "checks": [
+    {
+      "name": "panel_hp",
+      "sympy": "296808/125",
+      "actual": 2374.464,
+      "pass": true
+    },
+    {
+      "name": "panel_atk",
+      "sympy": "163763/125",
+      "actual": 1310.104,
+      "pass": true
+    },
+    {
+      "name": "panel_def",
+      "sympy": "32429/40",
+      "actual": 810.7249999999999,
+      "pass": true
+    },
+    {
+      "name": "panel_spd",
+      "sympy": "141",
+      "actual": 141,
+      "pass": true
+    },
+    {
+      "name": "def",
+      "sympy": "200/361",
+      "actual": 0.554016620498615,
+      "pass": true
+    },
+    {
+      "name": "res",
+      "sympy": "9/10",
+      "actual": 0.9,
+      "pass": true
+    },
+    {
+      "name": "base",
+      "sympy": "401337029999999997/100000000000000",
+      "actual": 4013.3703000000005,
+      "pass": true
+    },
+    {
+      "name": "crit",
+      "sympy": "421/200",
+      "actual": 2.105,
+      "pass": true
+    },
+    {
+      "name": "noncrit",
+      "sympy": "292574694869999997813/90250000000000000",
+      "actual": 3241.8248739058185,
+      "pass": true
+    },
+    {
+      "name": "direct",
+      "sympy": "123173946540269999079273/18050000000000000000",
+      "actual": 6824.041359571748,
+      "pass": true
+    },
+    {
+      "name": "critical",
+      "sympy": "7899516761489999940951/902500000000000000",
+      "actual": 8752.92715954571,
+      "pass": true
+    },
+    {
+      "name": "dot",
+      "sympy": "292574694869999997813/90250000000000000",
+      "actual": 3241.8248739058185,
+      "pass": true
+    },
+    {
+      "name": "dotExpected",
+      "sympy": "26624297233169999800983/9025000000000000000",
+      "actual": 2950.0606352542945,
+      "pass": true
+    },
+    {
+      "name": "breakDamage",
+      "sympy": "27465463557/1444000",
+      "actual": 19020.404125346267,
+      "pass": true
+    },
+    {
+      "name": "superbreak",
+      "sympy": "9155154519/722000",
+      "actual": 12680.269416897509,
+      "pass": true
+    },
+    {
+      "name": "elation",
+      "sympy": "1602626362904259/36100000000",
+      "actual": 44394.08207491023,
+      "pass": true
+    },
+    {
+      "name": "trueDamage",
+      "sympy": "132198946540269999079273/90250000000000000000",
+      "actual": 1464.8082719143497,
+      "pass": true
+    },
+    {
+      "name": "cumulative_log_total",
+      "sympy": "17035379624572019127/100000000000000",
+      "actual": 170353.79624572018,
+      "pass": true
+    },
+    {
+      "name": "chart_contributionUnit",
+      "sympy": "10000",
+      "actual": 10000,
+      "pass": true
+    },
+    {
+      "name": "chart_deltaUnit",
+      "sympy": "1000",
+      "actual": 1000,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

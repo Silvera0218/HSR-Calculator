@@ -1,0 +1,5383 @@
+{
+  "mean_rows": 48,
+  "interaction_cases": 56,
+  "checks": [
+    {
+      "name": "one_click_2_HPDelta_hpFlat",
+      "expected_exact": "15",
+      "actual": 15,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_hp",
+      "expected_exact": "897",
+      "actual": 897,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPDelta_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_atkFlat",
+      "expected_exact": "8",
+      "actual": 8,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_atk",
+      "expected_exact": "13871/25",
+      "actual": 554.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackDelta_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_defFlat",
+      "expected_exact": "8",
+      "actual": 8,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_def",
+      "expected_exact": "4049/10",
+      "actual": 404.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceDelta_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_hpPct",
+      "expected_exact": "243/15625",
+      "actual": 0.015552,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_hp",
+      "expected_exact": "13995576/15625",
+      "actual": 895.716864,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_HPAddedRatio_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_atkPct",
+      "expected_exact": "243/15625",
+      "actual": 0.015552,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_atk",
+      "expected_exact": "216931428/390625",
+      "actual": 555.34445568,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_AttackAddedRatio_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_defPct",
+      "expected_exact": "243/12500",
+      "actual": 0.01944,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_def",
+      "expected_exact": "50576967/125000",
+      "actual": 404.6157359999999,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_DefenceAddedRatio_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_spdFlat",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_SpeedDelta_spd",
+      "expected_exact": "111",
+      "actual": 111,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_cr",
+      "expected_exact": "1927/31250",
+      "actual": 0.061664000000000004,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalChanceBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_cd",
+      "expected_exact": "8177/15625",
+      "actual": 0.523328,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_CriticalDamageBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_ehr",
+      "expected_exact": "243/15625",
+      "actual": 0.015552,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusProbabilityBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_er",
+      "expected_exact": "243/15625",
+      "actual": 0.015552,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_StatusResistanceBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_be",
+      "expected_exact": "729/31250",
+      "actual": 0.023328,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_2_BreakDamageAddedRatioBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_hpFlat",
+      "expected_exact": "23",
+      "actual": 23,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_hp",
+      "expected_exact": "905",
+      "actual": 905,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPDelta_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_atkFlat",
+      "expected_exact": "11",
+      "actual": 11,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_atk",
+      "expected_exact": "13946/25",
+      "actual": 557.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackDelta_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_defFlat",
+      "expected_exact": "11",
+      "actual": 11,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_def",
+      "expected_exact": "4079/10",
+      "actual": 407.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceDelta_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_hpPct",
+      "expected_exact": "729/31250",
+      "actual": 0.023328,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_hp",
+      "expected_exact": "14102739/15625",
+      "actual": 902.575296,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_HPAddedRatio_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_atkPct",
+      "expected_exact": "729/31250",
+      "actual": 0.023328,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_atk",
+      "expected_exact": "437184909/781250",
+      "actual": 559.59668352,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_AttackAddedRatio_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_defPct",
+      "expected_exact": "729/25000",
+      "actual": 0.02916,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_def",
+      "expected_exact": "102118401/250000",
+      "actual": 408.473604,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_DefenceAddedRatio_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_spdFlat",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_SpeedDelta_spd",
+      "expected_exact": "111",
+      "actual": 111,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_cr",
+      "expected_exact": "8437/125000",
+      "actual": 0.067496,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalChanceBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_cd",
+      "expected_exact": "33437/62500",
+      "actual": 0.534992,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_CriticalDamageBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_ehr",
+      "expected_exact": "729/31250",
+      "actual": 0.023328,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusProbabilityBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_er",
+      "expected_exact": "729/31250",
+      "actual": 0.023328,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_StatusResistanceBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_be",
+      "expected_exact": "2187/62500",
+      "actual": 0.034992,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_3_BreakDamageAddedRatioBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_hpFlat",
+      "expected_exact": "30",
+      "actual": 30,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_hp",
+      "expected_exact": "912",
+      "actual": 912,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPDelta_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_atkFlat",
+      "expected_exact": "15",
+      "actual": 15,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_atk",
+      "expected_exact": "14046/25",
+      "actual": 561.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackDelta_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_defFlat",
+      "expected_exact": "15",
+      "actual": 15,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_def",
+      "expected_exact": "4119/10",
+      "actual": 411.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceDelta_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_hpPct",
+      "expected_exact": "486/15625",
+      "actual": 0.031104,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_hp",
+      "expected_exact": "14209902/15625",
+      "actual": 909.433728,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_HPAddedRatio_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_atkPct",
+      "expected_exact": "486/15625",
+      "actual": 0.031104,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_atk",
+      "expected_exact": "220253481/390625",
+      "actual": 563.84891136,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_AttackAddedRatio_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_defPct",
+      "expected_exact": "243/6250",
+      "actual": 0.03888,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_def",
+      "expected_exact": "25770717/62500",
+      "actual": 412.33147199999996,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_DefenceAddedRatio_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_spdFlat",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_SpeedDelta_spd",
+      "expected_exact": "112",
+      "actual": 112,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_cr",
+      "expected_exact": "4583/62500",
+      "actual": 0.073328,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalChanceBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_cd",
+      "expected_exact": "17083/31250",
+      "actual": 0.546656,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_CriticalDamageBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_ehr",
+      "expected_exact": "486/15625",
+      "actual": 0.031104,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusProbabilityBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_er",
+      "expected_exact": "486/15625",
+      "actual": 0.031104,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_StatusResistanceBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_be",
+      "expected_exact": "729/15625",
+      "actual": 0.046656,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_4_BreakDamageAddedRatioBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_hpFlat",
+      "expected_exact": "38",
+      "actual": 38,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_hp",
+      "expected_exact": "920",
+      "actual": 920,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPDelta_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_atkFlat",
+      "expected_exact": "19",
+      "actual": 19,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_atk",
+      "expected_exact": "14146/25",
+      "actual": 565.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackDelta_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_defFlat",
+      "expected_exact": "19",
+      "actual": 19,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_def",
+      "expected_exact": "4159/10",
+      "actual": 415.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceDelta_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_hpPct",
+      "expected_exact": "243/6250",
+      "actual": 0.03888,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_hp",
+      "expected_exact": "2863413/3125",
+      "actual": 916.29216,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_HPAddedRatio_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_atkPct",
+      "expected_exact": "243/6250",
+      "actual": 0.03888,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_atk",
+      "expected_exact": "88765803/156250",
+      "actual": 568.1011392,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_AttackAddedRatio_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_defPct",
+      "expected_exact": "243/5000",
+      "actual": 0.0486,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_def",
+      "expected_exact": "20809467/50000",
+      "actual": 416.18933999999996,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_DefenceAddedRatio_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_spdFlat",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_SpeedDelta_spd",
+      "expected_exact": "112",
+      "actual": 112,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_cr",
+      "expected_exact": "1979/25000",
+      "actual": 0.07916000000000001,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalChanceBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_cd",
+      "expected_exact": "6979/12500",
+      "actual": 0.55832,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_CriticalDamageBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_ehr",
+      "expected_exact": "243/6250",
+      "actual": 0.03888,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusProbabilityBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_er",
+      "expected_exact": "243/6250",
+      "actual": 0.03888,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_StatusResistanceBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_be",
+      "expected_exact": "729/12500",
+      "actual": 0.05832,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "one_click_5_BreakDamageAddedRatioBase_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_cr",
+      "expected_exact": "3437/25000",
+      "actual": 0.13748,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "three_clicks_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_cr",
+      "expected_exact": "677/6250",
+      "actual": 0.10832,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "withdraw_one_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_spdFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "withdraw_floor_zero_spd",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_spdFlat",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_er",
+      "expected_exact": "243/15625",
+      "actual": 0.015552,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "switch_rarity_spd",
+      "expected_exact": "111",
+      "actual": 111,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_spdFlat",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_er",
+      "expected_exact": "243/15625",
+      "actual": 0.015552,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "load_saved_counts_spd",
+      "expected_exact": "111",
+      "actual": 111,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_spdFlat",
+      "expected_exact": "9",
+      "actual": 9,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "four_speed_rolls_spd",
+      "expected_exact": "119",
+      "actual": 119,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_spdFlat",
+      "expected_exact": "9",
+      "actual": 9,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "user_2_2_four_rolls_spd",
+      "expected_exact": "119",
+      "actual": 119,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_hpFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_atkFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_defFlat",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_spdFlat",
+      "expected_exact": "9",
+      "actual": 9,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_hpPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_atkPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_defPct",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_cr",
+      "expected_exact": "1/20",
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_er",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_hp",
+      "expected_exact": "882",
+      "actual": 882,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_atk",
+      "expected_exact": "13671/25",
+      "actual": 546.84,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_def",
+      "expected_exact": "3969/10",
+      "actual": 396.9,
+      "pass": true
+    },
+    {
+      "name": "user_example_saved_roundtrip_spd",
+      "expected_exact": "119",
+      "actual": 119,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

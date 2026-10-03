@@ -1,0 +1,2256 @@
+{
+  "cases": 49,
+  "checks": [
+    {
+      "name": "1002_E0_100201_full_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100201_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100201_full_level",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100201_full_atk",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100201_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100201_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100201_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100202_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100202_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100202_full_level",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100202_full_atk",
+      "expected_exact": "13/5",
+      "actual": 2.6,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100202_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100202_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100202_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100203_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100203_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100203_full_level",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100203_full_atk",
+      "expected_exact": "4",
+      "actual": 4,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100203_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100203_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100203_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100204_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100204_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100204_full_level",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100204_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100204_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100204_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E0_100204_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100201_full_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100201_full_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100201_full_level",
+      "expected_exact": "7",
+      "actual": 7,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100201_full_atk",
+      "expected_exact": "11/10",
+      "actual": 1.1,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100201_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100201_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100201_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100202_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100202_full_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100202_full_level",
+      "expected_exact": "12",
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100202_full_atk",
+      "expected_exact": "143/50",
+      "actual": 2.86,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100202_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100202_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100202_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100203_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100203_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100203_full_level",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100203_full_atk",
+      "expected_exact": "4",
+      "actual": 4,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100203_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100203_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100203_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100204_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100204_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100204_full_level",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100204_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100204_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100204_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E3_100204_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_full_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_full_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_full_level",
+      "expected_exact": "7",
+      "actual": 7,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_full_atk",
+      "expected_exact": "11/10",
+      "actual": 1.1,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_full_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_full_level",
+      "expected_exact": "12",
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_full_atk",
+      "expected_exact": "143/50",
+      "actual": 2.86,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_full_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_full_level",
+      "expected_exact": "12",
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_full_atk",
+      "expected_exact": "108/25",
+      "actual": 4.32,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100204_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100204_full_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100204_full_level",
+      "expected_exact": "12",
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100204_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100204_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100204_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100204_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150301_full_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150301_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150301_full_level",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150301_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150301_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150301_full_def",
+      "expected_exact": "9/10",
+      "actual": 0.9,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150301_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150302_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150302_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150302_full_level",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150302_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150302_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150302_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150302_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150303_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150303_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150303_full_level",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150303_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150303_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150303_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150303_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150304_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150304_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150304_full_level",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150304_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150304_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150304_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150304_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150308_full_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150308_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150308_full_level",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150308_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150308_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150308_full_def",
+      "expected_exact": "11600000000000001/10000000000000000",
+      "actual": 1.1600000000000001,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150308_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150310_full_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150310_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150310_full_level",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150310_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150310_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150310_full_def",
+      "expected_exact": "11600000000000001/10000000000000000",
+      "actual": 1.1600000000000001,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150310_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150320_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150320_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150320_full_level",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150320_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150320_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150320_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E0_150320_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150301_full_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150301_full_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150301_full_level",
+      "expected_exact": "7",
+      "actual": 7,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150301_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150301_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150301_full_def",
+      "expected_exact": "99/100",
+      "actual": 0.99,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150301_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150302_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150302_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150302_full_level",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150302_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150302_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150302_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150302_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150303_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150303_full_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150303_full_level",
+      "expected_exact": "12",
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150303_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150303_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150303_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150303_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150304_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150304_full_bonus",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150304_full_level",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150304_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150304_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150304_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150304_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150308_full_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150308_full_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150308_full_level",
+      "expected_exact": "7",
+      "actual": 7,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150308_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150308_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150308_full_def",
+      "expected_exact": "6380000000000001/5000000000000000",
+      "actual": 1.2760000000000002,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150308_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150310_full_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150310_full_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150310_full_level",
+      "expected_exact": "7",
+      "actual": 7,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150310_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150310_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150310_full_def",
+      "expected_exact": "6380000000000001/5000000000000000",
+      "actual": 1.2760000000000002,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150310_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150320_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150320_full_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150320_full_level",
+      "expected_exact": "11",
+      "actual": 11,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150320_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150320_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150320_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E3_150320_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_full_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_full_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_full_level",
+      "expected_exact": "7",
+      "actual": 7,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_full_def",
+      "expected_exact": "99/100",
+      "actual": 0.99,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_full_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_full_level",
+      "expected_exact": "12",
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_full_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_full_level",
+      "expected_exact": "12",
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150304_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150304_full_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150304_full_level",
+      "expected_exact": "12",
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150304_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150304_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150304_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150304_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_full_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_full_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_full_level",
+      "expected_exact": "7",
+      "actual": 7,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_full_def",
+      "expected_exact": "6380000000000001/5000000000000000",
+      "actual": 1.2760000000000002,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_full_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_full_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_full_level",
+      "expected_exact": "7",
+      "actual": 7,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_full_def",
+      "expected_exact": "6380000000000001/5000000000000000",
+      "actual": 1.2760000000000002,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150320_full_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150320_full_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150320_full_level",
+      "expected_exact": "12",
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150320_full_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150320_full_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150320_full_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150320_full_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_base",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_level",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_atk",
+      "expected_exact": "3/5",
+      "actual": 0.6,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_base",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_level",
+      "expected_exact": "3",
+      "actual": 3,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_atk",
+      "expected_exact": "39/25",
+      "actual": 1.56,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_base",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_level",
+      "expected_exact": "3",
+      "actual": 3,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_atk",
+      "expected_exact": "68/25",
+      "actual": 2.72,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_level",
+      "expected_exact": "7",
+      "actual": 7,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_atk",
+      "expected_exact": "11/10",
+      "actual": 1.1,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100201_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_level",
+      "expected_exact": "12",
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_atk",
+      "expected_exact": "143/50",
+      "actual": 2.86,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100202_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_level",
+      "expected_exact": "12",
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_atk",
+      "expected_exact": "108/25",
+      "actual": 4.32,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1002_E5_100203_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_base",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_level",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_def",
+      "expected_exact": "27/50",
+      "actual": 0.54,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_base",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_level",
+      "expected_exact": "3",
+      "actual": 3,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_base",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_level",
+      "expected_exact": "3",
+      "actual": 3,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_base",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_level",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_def",
+      "expected_exact": "6960000000000001/10000000000000000",
+      "actual": 0.6960000000000001,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_base",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_level",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_def",
+      "expected_exact": "6960000000000001/10000000000000000",
+      "actual": 0.6960000000000001,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_level",
+      "expected_exact": "7",
+      "actual": 7,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_def",
+      "expected_exact": "99/100",
+      "actual": 0.99,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150301_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_level",
+      "expected_exact": "12",
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150302_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_base",
+      "expected_exact": "10",
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_bonus",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_level",
+      "expected_exact": "12",
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_def",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150303_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_level",
+      "expected_exact": "7",
+      "actual": 7,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_def",
+      "expected_exact": "6380000000000001/5000000000000000",
+      "actual": 1.2760000000000002,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150308_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_base",
+      "expected_exact": "6",
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_bonus",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_level",
+      "expected_exact": "7",
+      "actual": 7,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_atk",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_hp",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_def",
+      "expected_exact": "6380000000000001/5000000000000000",
+      "actual": 1.2760000000000002,
+      "pass": true
+    },
+    {
+      "name": "1503_E5_150310_manual_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_hp",
+      "expected_exact": "24343199999999999/10000000000000",
+      "actual": 2434.3199999999997,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_atk",
+      "expected_exact": "367353/250",
+      "actual": 1469.412,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_def",
+      "expected_exact": "11907/16",
+      "actual": 744.1875,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_spd",
+      "expected_exact": "119",
+      "actual": 119,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_cr",
+      "expected_exact": "3/20",
+      "actual": 0.15000000000000002,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_cd",
+      "expected_exact": "1/2",
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_be",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_dmg",
+      "expected_exact": "28/125",
+      "actual": 0.224,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_ehr",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_er",
+      "expected_exact": "243/3125",
+      "actual": 0.07776,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_heal",
+      "expected_exact": "1/10",
+      "actual": 0.1,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_healTaken",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_err",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "source_reconstruct_elation",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "LC23036_S1_spd",
+      "expected_exact": "299/2",
+      "actual": 149.5,
+      "pass": true
+    },
+    {
+      "name": "LC23036_S1_heal",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "LC23036_S1_healTaken",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "LC23036_S5_spd",
+      "expected_exact": "319/2",
+      "actual": 159.5,
+      "pass": true
+    },
+    {
+      "name": "LC23036_S5_heal",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "LC23036_S5_healTaken",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "LC23039_S1_spd",
+      "expected_exact": "269/2",
+      "actual": 134.5,
+      "pass": true
+    },
+    {
+      "name": "LC23039_S1_heal",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "LC23039_S1_healTaken",
+      "expected_exact": "1/5",
+      "actual": 0.2,
+      "pass": true
+    },
+    {
+      "name": "LC23039_S5_spd",
+      "expected_exact": "269/2",
+      "actual": 134.5,
+      "pass": true
+    },
+    {
+      "name": "LC23039_S5_heal",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "LC23039_S5_healTaken",
+      "expected_exact": "2/5",
+      "actual": 0.4,
+      "pass": true
+    },
+    {
+      "name": "LC21007_S1_spd",
+      "expected_exact": "259/2",
+      "actual": 129.5,
+      "pass": true
+    },
+    {
+      "name": "LC21007_S1_heal",
+      "expected_exact": "1/10",
+      "actual": 0.1,
+      "pass": true
+    },
+    {
+      "name": "LC21007_S1_healTaken",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "name": "LC21007_S5_spd",
+      "expected_exact": "259/2",
+      "actual": 129.5,
+      "pass": true
+    },
+    {
+      "name": "LC21007_S5_heal",
+      "expected_exact": "1/5",
+      "actual": 0.2,
+      "pass": true
+    },
+    {
+      "name": "LC21007_S5_healTaken",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    }
+  ],
+  "pass": true
+}
