@@ -1,0 +1,4531 @@
+{
+  "validator_version": "slider-independent-1",
+  "status": "PASS",
+  "scope": "副词条range+精确次数输入、累计舍入与既有固定循环工作台交互。数值规则沿用engine/data；不是全部实战机制验收。",
+  "numeric_files": {
+    "engine.mjs": {
+      "web_sha256": "cf054b44bc313215e11f18f9b1b3ca563f2b32f88d195a081e4bb056dd08509d",
+      "publish_docs_sha256": "cf054b44bc313215e11f18f9b1b3ca563f2b32f88d195a081e4bb056dd08509d",
+      "byte_identical": true
+    },
+    "data.json": {
+      "web_sha256": "959993bc3076ae27adf46c6c481eeb85ab150ea04054501585524b75d5ca7118",
+      "publish_docs_sha256": "959993bc3076ae27adf46c6c481eeb85ab150ea04054501585524b75d5ca7118",
+      "byte_identical": true
+    }
+  },
+  "candidate_ui_sha256": {
+    "app.mjs": "df27b71567ccd7a0db7f446af7f09b60e9aae9f2157e57ebae1216beaedab017",
+    "battle-ui.mjs": "9b1edfaf41e90d402572a880e4cee530040becb8df83bee208f27ea1c8861d8d",
+    "panel-view.mjs": "ada751cb542fca920ee066821e8b6e4c4c712bf7658f46d0232996891a9ce1c1",
+    "index.html": "e47b0478d9d5620af216f998c5154d9474a5948e735a9d2071f39f0906222376",
+    "panel-style.css": "ab80d71422790eca6d231d31b08b75732476f445f6efb008fbd3ffc543dbc650"
+  },
+  "source_mean_rows": 48,
+  "source_means_canonical_sha256": "cdb8b733bd1d6848d8f26b3f1d1b276bc30ff1a837c5fd0d84070e7c2b3aeda0",
+  "mean_method": "SymPy exact mean(base+k*step), integer k=0..step_num, source tier equal weights",
+  "count_policy": "nonnegative safe integer; slider 0..60 is initial UI range, exact inputs above60 expand range and persist",
+  "accumulation_policy": "raw source mean * integer count; percentages remain unrounded; flat contributions round-half-up after accumulation",
+  "tested_counts": [
+    0,
+    1,
+    2,
+    4,
+    59,
+    60,
+    61,
+    80,
+    1000
+  ],
+  "numeric_cases": 432,
+  "source_rows": [
+    {
+      "rarity": "2",
+      "property": "HPDelta",
+      "source_base_exact": "3387/250",
+      "source_step_exact": "3387/2000",
+      "step_num": 2,
+      "mean_exact": "30483/2000",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackDelta",
+      "source_base_exact": "677401/100000",
+      "source_step_exact": "846751/1000000",
+      "step_num": 2,
+      "mean_exact": "7620761/1000000",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceDelta",
+      "source_base_exact": "677401/100000",
+      "source_step_exact": "846751/1000000",
+      "step_num": 2,
+      "mean_exact": "7620761/1000000",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPAddedRatio",
+      "source_base_exact": "216/15625",
+      "source_step_exact": "27/15625",
+      "step_num": 2,
+      "mean_exact": "243/15625",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackAddedRatio",
+      "source_base_exact": "216/15625",
+      "source_step_exact": "27/15625",
+      "step_num": 2,
+      "mean_exact": "243/15625",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceAddedRatio",
+      "source_base_exact": "54/3125",
+      "source_step_exact": "27/12500",
+      "step_num": 2,
+      "mean_exact": "243/12500",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "SpeedDelta",
+      "source_base_exact": "1",
+      "source_step_exact": "1/10",
+      "step_num": 2,
+      "mean_exact": "11/10",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalChanceBase",
+      "source_base_exact": "162/15625",
+      "source_step_exact": "81/62500",
+      "step_num": 2,
+      "mean_exact": "729/62500",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalDamageBase",
+      "source_base_exact": "324/15625",
+      "source_step_exact": "81/31250",
+      "step_num": 2,
+      "mean_exact": "729/31250",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusProbabilityBase",
+      "source_base_exact": "216/15625",
+      "source_step_exact": "27/15625",
+      "step_num": 2,
+      "mean_exact": "243/15625",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusResistanceBase",
+      "source_base_exact": "216/15625",
+      "source_step_exact": "27/15625",
+      "step_num": 2,
+      "mean_exact": "243/15625",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "BreakDamageAddedRatioBase",
+      "source_base_exact": "324/15625",
+      "source_step_exact": "81/31250",
+      "step_num": 2,
+      "mean_exact": "729/31250",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPDelta",
+      "source_base_exact": "10161/500",
+      "source_step_exact": "10161/4000",
+      "step_num": 2,
+      "mean_exact": "91449/4000",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackDelta",
+      "source_base_exact": "10161/1000",
+      "source_step_exact": "127013/100000",
+      "step_num": 2,
+      "mean_exact": "1143113/100000",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceDelta",
+      "source_base_exact": "10161/1000",
+      "source_step_exact": "127013/100000",
+      "step_num": 2,
+      "mean_exact": "1143113/100000",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPAddedRatio",
+      "source_base_exact": "324/15625",
+      "source_step_exact": "81/31250",
+      "step_num": 2,
+      "mean_exact": "729/31250",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackAddedRatio",
+      "source_base_exact": "324/15625",
+      "source_step_exact": "81/31250",
+      "step_num": 2,
+      "mean_exact": "729/31250",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceAddedRatio",
+      "source_base_exact": "81/3125",
+      "source_step_exact": "81/25000",
+      "step_num": 2,
+      "mean_exact": "729/25000",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "SpeedDelta",
+      "source_base_exact": "6/5",
+      "source_step_exact": "1/10",
+      "step_num": 2,
+      "mean_exact": "13/10",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalChanceBase",
+      "source_base_exact": "243/15625",
+      "source_step_exact": "243/125000",
+      "step_num": 2,
+      "mean_exact": "2187/125000",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalDamageBase",
+      "source_base_exact": "486/15625",
+      "source_step_exact": "243/62500",
+      "step_num": 2,
+      "mean_exact": "2187/62500",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusProbabilityBase",
+      "source_base_exact": "324/15625",
+      "source_step_exact": "81/31250",
+      "step_num": 2,
+      "mean_exact": "729/31250",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusResistanceBase",
+      "source_base_exact": "324/15625",
+      "source_step_exact": "81/31250",
+      "step_num": 2,
+      "mean_exact": "729/31250",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "BreakDamageAddedRatioBase",
+      "source_base_exact": "486/15625",
+      "source_step_exact": "243/62500",
+      "step_num": 2,
+      "mean_exact": "2187/62500",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPDelta",
+      "source_base_exact": "3387/125",
+      "source_step_exact": "3387/1000",
+      "step_num": 2,
+      "mean_exact": "30483/1000",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackDelta",
+      "source_base_exact": "3387/250",
+      "source_step_exact": "3387/2000",
+      "step_num": 2,
+      "mean_exact": "30483/2000",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceDelta",
+      "source_base_exact": "3387/250",
+      "source_step_exact": "3387/2000",
+      "step_num": 2,
+      "mean_exact": "30483/2000",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPAddedRatio",
+      "source_base_exact": "432/15625",
+      "source_step_exact": "54/15625",
+      "step_num": 2,
+      "mean_exact": "486/15625",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackAddedRatio",
+      "source_base_exact": "432/15625",
+      "source_step_exact": "54/15625",
+      "step_num": 2,
+      "mean_exact": "486/15625",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceAddedRatio",
+      "source_base_exact": "108/3125",
+      "source_step_exact": "27/6250",
+      "step_num": 2,
+      "mean_exact": "243/6250",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "SpeedDelta",
+      "source_base_exact": "8/5",
+      "source_step_exact": "1/5",
+      "step_num": 2,
+      "mean_exact": "9/5",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalChanceBase",
+      "source_base_exact": "324/15625",
+      "source_step_exact": "81/31250",
+      "step_num": 2,
+      "mean_exact": "729/31250",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalDamageBase",
+      "source_base_exact": "648/15625",
+      "source_step_exact": "81/15625",
+      "step_num": 2,
+      "mean_exact": "729/15625",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusProbabilityBase",
+      "source_base_exact": "432/15625",
+      "source_step_exact": "54/15625",
+      "step_num": 2,
+      "mean_exact": "486/15625",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusResistanceBase",
+      "source_base_exact": "432/15625",
+      "source_step_exact": "54/15625",
+      "step_num": 2,
+      "mean_exact": "486/15625",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "BreakDamageAddedRatioBase",
+      "source_base_exact": "648/15625",
+      "source_step_exact": "81/15625",
+      "step_num": 2,
+      "mean_exact": "729/15625",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPDelta",
+      "source_base_exact": "3387/100",
+      "source_step_exact": "26461/6250",
+      "step_num": 2,
+      "mean_exact": "476297/12500",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackDelta",
+      "source_base_exact": "3387/200",
+      "source_step_exact": "26461/12500",
+      "step_num": 2,
+      "mean_exact": "476297/25000",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceDelta",
+      "source_base_exact": "3387/200",
+      "source_step_exact": "26461/12500",
+      "step_num": 2,
+      "mean_exact": "476297/25000",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPAddedRatio",
+      "source_base_exact": "108/3125",
+      "source_step_exact": "27/6250",
+      "step_num": 2,
+      "mean_exact": "243/6250",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackAddedRatio",
+      "source_base_exact": "108/3125",
+      "source_step_exact": "27/6250",
+      "step_num": 2,
+      "mean_exact": "243/6250",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceAddedRatio",
+      "source_base_exact": "27/625",
+      "source_step_exact": "27/5000",
+      "step_num": 2,
+      "mean_exact": "243/5000",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "SpeedDelta",
+      "source_base_exact": "2",
+      "source_step_exact": "3/10",
+      "step_num": 2,
+      "mean_exact": "23/10",
+      "is_percentage": false,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalChanceBase",
+      "source_base_exact": "81/3125",
+      "source_step_exact": "81/25000",
+      "step_num": 2,
+      "mean_exact": "729/25000",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalDamageBase",
+      "source_base_exact": "162/3125",
+      "source_step_exact": "81/12500",
+      "step_num": 2,
+      "mean_exact": "729/12500",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusProbabilityBase",
+      "source_base_exact": "108/3125",
+      "source_step_exact": "27/6250",
+      "step_num": 2,
+      "mean_exact": "243/6250",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusResistanceBase",
+      "source_base_exact": "108/3125",
+      "source_step_exact": "27/6250",
+      "step_num": 2,
+      "mean_exact": "243/6250",
+      "is_percentage": true,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "BreakDamageAddedRatioBase",
+      "source_base_exact": "162/3125",
+      "source_step_exact": "81/12500",
+      "step_num": 2,
+      "mean_exact": "729/12500",
+      "is_percentage": true,
+      "pass": true
+    }
+  ],
+  "numeric_checks": [
+    {
+      "rarity": "2",
+      "property": "HPDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPDelta",
+      "count": 1,
+      "raw_exact": "30483/2000",
+      "expected_exact": "15",
+      "actual": 15,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPDelta",
+      "count": 2,
+      "raw_exact": "30483/1000",
+      "expected_exact": "30",
+      "actual": 30,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPDelta",
+      "count": 4,
+      "raw_exact": "30483/500",
+      "expected_exact": "61",
+      "actual": 61,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPDelta",
+      "count": 59,
+      "raw_exact": "1798497/2000",
+      "expected_exact": "899",
+      "actual": 899,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPDelta",
+      "count": 60,
+      "raw_exact": "91449/100",
+      "expected_exact": "914",
+      "actual": 914,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPDelta",
+      "count": 61,
+      "raw_exact": "1859463/2000",
+      "expected_exact": "930",
+      "actual": 930,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPDelta",
+      "count": 80,
+      "raw_exact": "30483/25",
+      "expected_exact": "1219",
+      "actual": 1219,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPDelta",
+      "count": 1000,
+      "raw_exact": "30483/2",
+      "expected_exact": "15242",
+      "actual": 15242,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackDelta",
+      "count": 1,
+      "raw_exact": "7620761/1000000",
+      "expected_exact": "8",
+      "actual": 8,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackDelta",
+      "count": 2,
+      "raw_exact": "7620761/500000",
+      "expected_exact": "15",
+      "actual": 15,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackDelta",
+      "count": 4,
+      "raw_exact": "7620761/250000",
+      "expected_exact": "30",
+      "actual": 30,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackDelta",
+      "count": 59,
+      "raw_exact": "449624899/1000000",
+      "expected_exact": "450",
+      "actual": 450,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackDelta",
+      "count": 60,
+      "raw_exact": "22862283/50000",
+      "expected_exact": "457",
+      "actual": 457,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackDelta",
+      "count": 61,
+      "raw_exact": "464866421/1000000",
+      "expected_exact": "465",
+      "actual": 465,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackDelta",
+      "count": 80,
+      "raw_exact": "7620761/12500",
+      "expected_exact": "610",
+      "actual": 610,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackDelta",
+      "count": 1000,
+      "raw_exact": "7620761/1000",
+      "expected_exact": "7621",
+      "actual": 7621,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceDelta",
+      "count": 1,
+      "raw_exact": "7620761/1000000",
+      "expected_exact": "8",
+      "actual": 8,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceDelta",
+      "count": 2,
+      "raw_exact": "7620761/500000",
+      "expected_exact": "15",
+      "actual": 15,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceDelta",
+      "count": 4,
+      "raw_exact": "7620761/250000",
+      "expected_exact": "30",
+      "actual": 30,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceDelta",
+      "count": 59,
+      "raw_exact": "449624899/1000000",
+      "expected_exact": "450",
+      "actual": 450,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceDelta",
+      "count": 60,
+      "raw_exact": "22862283/50000",
+      "expected_exact": "457",
+      "actual": 457,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceDelta",
+      "count": 61,
+      "raw_exact": "464866421/1000000",
+      "expected_exact": "465",
+      "actual": 465,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceDelta",
+      "count": 80,
+      "raw_exact": "7620761/12500",
+      "expected_exact": "610",
+      "actual": 610,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceDelta",
+      "count": 1000,
+      "raw_exact": "7620761/1000",
+      "expected_exact": "7621",
+      "actual": 7621,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPAddedRatio",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPAddedRatio",
+      "count": 1,
+      "raw_exact": "243/15625",
+      "expected_exact": "243/15625",
+      "actual": 0.015552,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPAddedRatio",
+      "count": 2,
+      "raw_exact": "486/15625",
+      "expected_exact": "486/15625",
+      "actual": 0.031104,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPAddedRatio",
+      "count": 4,
+      "raw_exact": "972/15625",
+      "expected_exact": "972/15625",
+      "actual": 0.062208,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPAddedRatio",
+      "count": 59,
+      "raw_exact": "14337/15625",
+      "expected_exact": "14337/15625",
+      "actual": 0.9175679999999999,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPAddedRatio",
+      "count": 60,
+      "raw_exact": "2916/3125",
+      "expected_exact": "2916/3125",
+      "actual": 0.93312,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPAddedRatio",
+      "count": 61,
+      "raw_exact": "14823/15625",
+      "expected_exact": "14823/15625",
+      "actual": 0.948672,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPAddedRatio",
+      "count": 80,
+      "raw_exact": "3888/3125",
+      "expected_exact": "3888/3125",
+      "actual": 1.24416,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "HPAddedRatio",
+      "count": 1000,
+      "raw_exact": "1944/125",
+      "expected_exact": "1944/125",
+      "actual": 15.552,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackAddedRatio",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackAddedRatio",
+      "count": 1,
+      "raw_exact": "243/15625",
+      "expected_exact": "243/15625",
+      "actual": 0.015552,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackAddedRatio",
+      "count": 2,
+      "raw_exact": "486/15625",
+      "expected_exact": "486/15625",
+      "actual": 0.031104,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackAddedRatio",
+      "count": 4,
+      "raw_exact": "972/15625",
+      "expected_exact": "972/15625",
+      "actual": 0.062208,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackAddedRatio",
+      "count": 59,
+      "raw_exact": "14337/15625",
+      "expected_exact": "14337/15625",
+      "actual": 0.9175679999999999,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackAddedRatio",
+      "count": 60,
+      "raw_exact": "2916/3125",
+      "expected_exact": "2916/3125",
+      "actual": 0.93312,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackAddedRatio",
+      "count": 61,
+      "raw_exact": "14823/15625",
+      "expected_exact": "14823/15625",
+      "actual": 0.948672,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackAddedRatio",
+      "count": 80,
+      "raw_exact": "3888/3125",
+      "expected_exact": "3888/3125",
+      "actual": 1.24416,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "AttackAddedRatio",
+      "count": 1000,
+      "raw_exact": "1944/125",
+      "expected_exact": "1944/125",
+      "actual": 15.552,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceAddedRatio",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceAddedRatio",
+      "count": 1,
+      "raw_exact": "243/12500",
+      "expected_exact": "243/12500",
+      "actual": 0.01944,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceAddedRatio",
+      "count": 2,
+      "raw_exact": "243/6250",
+      "expected_exact": "243/6250",
+      "actual": 0.03888,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceAddedRatio",
+      "count": 4,
+      "raw_exact": "243/3125",
+      "expected_exact": "243/3125",
+      "actual": 0.07776,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceAddedRatio",
+      "count": 59,
+      "raw_exact": "14337/12500",
+      "expected_exact": "14337/12500",
+      "actual": 1.14696,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceAddedRatio",
+      "count": 60,
+      "raw_exact": "729/625",
+      "expected_exact": "729/625",
+      "actual": 1.1663999999999999,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceAddedRatio",
+      "count": 61,
+      "raw_exact": "14823/12500",
+      "expected_exact": "14823/12500",
+      "actual": 1.18584,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceAddedRatio",
+      "count": 80,
+      "raw_exact": "972/625",
+      "expected_exact": "972/625",
+      "actual": 1.5552,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "DefenceAddedRatio",
+      "count": 1000,
+      "raw_exact": "486/25",
+      "expected_exact": "486/25",
+      "actual": 19.439999999999998,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "SpeedDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "SpeedDelta",
+      "count": 1,
+      "raw_exact": "11/10",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "SpeedDelta",
+      "count": 2,
+      "raw_exact": "11/5",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "SpeedDelta",
+      "count": 4,
+      "raw_exact": "22/5",
+      "expected_exact": "4",
+      "actual": 4,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "SpeedDelta",
+      "count": 59,
+      "raw_exact": "649/10",
+      "expected_exact": "65",
+      "actual": 65,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "SpeedDelta",
+      "count": 60,
+      "raw_exact": "66",
+      "expected_exact": "66",
+      "actual": 66,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "SpeedDelta",
+      "count": 61,
+      "raw_exact": "671/10",
+      "expected_exact": "67",
+      "actual": 67,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "SpeedDelta",
+      "count": 80,
+      "raw_exact": "88",
+      "expected_exact": "88",
+      "actual": 88,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "SpeedDelta",
+      "count": 1000,
+      "raw_exact": "1100",
+      "expected_exact": "1100",
+      "actual": 1100,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalChanceBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalChanceBase",
+      "count": 1,
+      "raw_exact": "729/62500",
+      "expected_exact": "729/62500",
+      "actual": 0.011664,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalChanceBase",
+      "count": 2,
+      "raw_exact": "729/31250",
+      "expected_exact": "729/31250",
+      "actual": 0.023328,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalChanceBase",
+      "count": 4,
+      "raw_exact": "729/15625",
+      "expected_exact": "729/15625",
+      "actual": 0.046656,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalChanceBase",
+      "count": 59,
+      "raw_exact": "43011/62500",
+      "expected_exact": "43011/62500",
+      "actual": 0.688176,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalChanceBase",
+      "count": 60,
+      "raw_exact": "2187/3125",
+      "expected_exact": "2187/3125",
+      "actual": 0.69984,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalChanceBase",
+      "count": 61,
+      "raw_exact": "44469/62500",
+      "expected_exact": "44469/62500",
+      "actual": 0.711504,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalChanceBase",
+      "count": 80,
+      "raw_exact": "2916/3125",
+      "expected_exact": "2916/3125",
+      "actual": 0.9331200000000001,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalChanceBase",
+      "count": 1000,
+      "raw_exact": "1458/125",
+      "expected_exact": "1458/125",
+      "actual": 11.664000000000001,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalDamageBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalDamageBase",
+      "count": 1,
+      "raw_exact": "729/31250",
+      "expected_exact": "729/31250",
+      "actual": 0.023328,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalDamageBase",
+      "count": 2,
+      "raw_exact": "729/15625",
+      "expected_exact": "729/15625",
+      "actual": 0.046656,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalDamageBase",
+      "count": 4,
+      "raw_exact": "1458/15625",
+      "expected_exact": "1458/15625",
+      "actual": 0.093312,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalDamageBase",
+      "count": 59,
+      "raw_exact": "43011/31250",
+      "expected_exact": "43011/31250",
+      "actual": 1.376352,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalDamageBase",
+      "count": 60,
+      "raw_exact": "4374/3125",
+      "expected_exact": "4374/3125",
+      "actual": 1.39968,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalDamageBase",
+      "count": 61,
+      "raw_exact": "44469/31250",
+      "expected_exact": "44469/31250",
+      "actual": 1.423008,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalDamageBase",
+      "count": 80,
+      "raw_exact": "5832/3125",
+      "expected_exact": "5832/3125",
+      "actual": 1.8662400000000001,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "CriticalDamageBase",
+      "count": 1000,
+      "raw_exact": "2916/125",
+      "expected_exact": "2916/125",
+      "actual": 23.328000000000003,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusProbabilityBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusProbabilityBase",
+      "count": 1,
+      "raw_exact": "243/15625",
+      "expected_exact": "243/15625",
+      "actual": 0.015552,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusProbabilityBase",
+      "count": 2,
+      "raw_exact": "486/15625",
+      "expected_exact": "486/15625",
+      "actual": 0.031104,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusProbabilityBase",
+      "count": 4,
+      "raw_exact": "972/15625",
+      "expected_exact": "972/15625",
+      "actual": 0.062208,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusProbabilityBase",
+      "count": 59,
+      "raw_exact": "14337/15625",
+      "expected_exact": "14337/15625",
+      "actual": 0.9175679999999999,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusProbabilityBase",
+      "count": 60,
+      "raw_exact": "2916/3125",
+      "expected_exact": "2916/3125",
+      "actual": 0.93312,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusProbabilityBase",
+      "count": 61,
+      "raw_exact": "14823/15625",
+      "expected_exact": "14823/15625",
+      "actual": 0.948672,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusProbabilityBase",
+      "count": 80,
+      "raw_exact": "3888/3125",
+      "expected_exact": "3888/3125",
+      "actual": 1.24416,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusProbabilityBase",
+      "count": 1000,
+      "raw_exact": "1944/125",
+      "expected_exact": "1944/125",
+      "actual": 15.552,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusResistanceBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusResistanceBase",
+      "count": 1,
+      "raw_exact": "243/15625",
+      "expected_exact": "243/15625",
+      "actual": 0.015552,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusResistanceBase",
+      "count": 2,
+      "raw_exact": "486/15625",
+      "expected_exact": "486/15625",
+      "actual": 0.031104,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusResistanceBase",
+      "count": 4,
+      "raw_exact": "972/15625",
+      "expected_exact": "972/15625",
+      "actual": 0.062208,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusResistanceBase",
+      "count": 59,
+      "raw_exact": "14337/15625",
+      "expected_exact": "14337/15625",
+      "actual": 0.9175679999999999,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusResistanceBase",
+      "count": 60,
+      "raw_exact": "2916/3125",
+      "expected_exact": "2916/3125",
+      "actual": 0.93312,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusResistanceBase",
+      "count": 61,
+      "raw_exact": "14823/15625",
+      "expected_exact": "14823/15625",
+      "actual": 0.948672,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusResistanceBase",
+      "count": 80,
+      "raw_exact": "3888/3125",
+      "expected_exact": "3888/3125",
+      "actual": 1.24416,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "StatusResistanceBase",
+      "count": 1000,
+      "raw_exact": "1944/125",
+      "expected_exact": "1944/125",
+      "actual": 15.552,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 1,
+      "raw_exact": "729/31250",
+      "expected_exact": "729/31250",
+      "actual": 0.023328,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 2,
+      "raw_exact": "729/15625",
+      "expected_exact": "729/15625",
+      "actual": 0.046656,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 4,
+      "raw_exact": "1458/15625",
+      "expected_exact": "1458/15625",
+      "actual": 0.093312,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 59,
+      "raw_exact": "43011/31250",
+      "expected_exact": "43011/31250",
+      "actual": 1.376352,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 60,
+      "raw_exact": "4374/3125",
+      "expected_exact": "4374/3125",
+      "actual": 1.39968,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 61,
+      "raw_exact": "44469/31250",
+      "expected_exact": "44469/31250",
+      "actual": 1.423008,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 80,
+      "raw_exact": "5832/3125",
+      "expected_exact": "5832/3125",
+      "actual": 1.8662400000000001,
+      "pass": true
+    },
+    {
+      "rarity": "2",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 1000,
+      "raw_exact": "2916/125",
+      "expected_exact": "2916/125",
+      "actual": 23.328000000000003,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPDelta",
+      "count": 1,
+      "raw_exact": "91449/4000",
+      "expected_exact": "23",
+      "actual": 23,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPDelta",
+      "count": 2,
+      "raw_exact": "91449/2000",
+      "expected_exact": "46",
+      "actual": 46,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPDelta",
+      "count": 4,
+      "raw_exact": "91449/1000",
+      "expected_exact": "91",
+      "actual": 91,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPDelta",
+      "count": 59,
+      "raw_exact": "5395491/4000",
+      "expected_exact": "1349",
+      "actual": 1349,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPDelta",
+      "count": 60,
+      "raw_exact": "274347/200",
+      "expected_exact": "1372",
+      "actual": 1372,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPDelta",
+      "count": 61,
+      "raw_exact": "5578389/4000",
+      "expected_exact": "1395",
+      "actual": 1395,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPDelta",
+      "count": 80,
+      "raw_exact": "91449/50",
+      "expected_exact": "1829",
+      "actual": 1829,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPDelta",
+      "count": 1000,
+      "raw_exact": "91449/4",
+      "expected_exact": "22862",
+      "actual": 22862,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackDelta",
+      "count": 1,
+      "raw_exact": "1143113/100000",
+      "expected_exact": "11",
+      "actual": 11,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackDelta",
+      "count": 2,
+      "raw_exact": "1143113/50000",
+      "expected_exact": "23",
+      "actual": 23,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackDelta",
+      "count": 4,
+      "raw_exact": "1143113/25000",
+      "expected_exact": "46",
+      "actual": 46,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackDelta",
+      "count": 59,
+      "raw_exact": "67443667/100000",
+      "expected_exact": "674",
+      "actual": 674,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackDelta",
+      "count": 60,
+      "raw_exact": "3429339/5000",
+      "expected_exact": "686",
+      "actual": 686,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackDelta",
+      "count": 61,
+      "raw_exact": "69729893/100000",
+      "expected_exact": "697",
+      "actual": 697,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackDelta",
+      "count": 80,
+      "raw_exact": "1143113/1250",
+      "expected_exact": "914",
+      "actual": 914,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackDelta",
+      "count": 1000,
+      "raw_exact": "1143113/100",
+      "expected_exact": "11431",
+      "actual": 11431,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceDelta",
+      "count": 1,
+      "raw_exact": "1143113/100000",
+      "expected_exact": "11",
+      "actual": 11,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceDelta",
+      "count": 2,
+      "raw_exact": "1143113/50000",
+      "expected_exact": "23",
+      "actual": 23,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceDelta",
+      "count": 4,
+      "raw_exact": "1143113/25000",
+      "expected_exact": "46",
+      "actual": 46,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceDelta",
+      "count": 59,
+      "raw_exact": "67443667/100000",
+      "expected_exact": "674",
+      "actual": 674,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceDelta",
+      "count": 60,
+      "raw_exact": "3429339/5000",
+      "expected_exact": "686",
+      "actual": 686,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceDelta",
+      "count": 61,
+      "raw_exact": "69729893/100000",
+      "expected_exact": "697",
+      "actual": 697,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceDelta",
+      "count": 80,
+      "raw_exact": "1143113/1250",
+      "expected_exact": "914",
+      "actual": 914,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceDelta",
+      "count": 1000,
+      "raw_exact": "1143113/100",
+      "expected_exact": "11431",
+      "actual": 11431,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPAddedRatio",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPAddedRatio",
+      "count": 1,
+      "raw_exact": "729/31250",
+      "expected_exact": "729/31250",
+      "actual": 0.023328,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPAddedRatio",
+      "count": 2,
+      "raw_exact": "729/15625",
+      "expected_exact": "729/15625",
+      "actual": 0.046656,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPAddedRatio",
+      "count": 4,
+      "raw_exact": "1458/15625",
+      "expected_exact": "1458/15625",
+      "actual": 0.093312,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPAddedRatio",
+      "count": 59,
+      "raw_exact": "43011/31250",
+      "expected_exact": "43011/31250",
+      "actual": 1.376352,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPAddedRatio",
+      "count": 60,
+      "raw_exact": "4374/3125",
+      "expected_exact": "4374/3125",
+      "actual": 1.39968,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPAddedRatio",
+      "count": 61,
+      "raw_exact": "44469/31250",
+      "expected_exact": "44469/31250",
+      "actual": 1.423008,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPAddedRatio",
+      "count": 80,
+      "raw_exact": "5832/3125",
+      "expected_exact": "5832/3125",
+      "actual": 1.8662400000000001,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "HPAddedRatio",
+      "count": 1000,
+      "raw_exact": "2916/125",
+      "expected_exact": "2916/125",
+      "actual": 23.328000000000003,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackAddedRatio",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackAddedRatio",
+      "count": 1,
+      "raw_exact": "729/31250",
+      "expected_exact": "729/31250",
+      "actual": 0.023328,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackAddedRatio",
+      "count": 2,
+      "raw_exact": "729/15625",
+      "expected_exact": "729/15625",
+      "actual": 0.046656,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackAddedRatio",
+      "count": 4,
+      "raw_exact": "1458/15625",
+      "expected_exact": "1458/15625",
+      "actual": 0.093312,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackAddedRatio",
+      "count": 59,
+      "raw_exact": "43011/31250",
+      "expected_exact": "43011/31250",
+      "actual": 1.376352,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackAddedRatio",
+      "count": 60,
+      "raw_exact": "4374/3125",
+      "expected_exact": "4374/3125",
+      "actual": 1.39968,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackAddedRatio",
+      "count": 61,
+      "raw_exact": "44469/31250",
+      "expected_exact": "44469/31250",
+      "actual": 1.423008,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackAddedRatio",
+      "count": 80,
+      "raw_exact": "5832/3125",
+      "expected_exact": "5832/3125",
+      "actual": 1.8662400000000001,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "AttackAddedRatio",
+      "count": 1000,
+      "raw_exact": "2916/125",
+      "expected_exact": "2916/125",
+      "actual": 23.328000000000003,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceAddedRatio",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceAddedRatio",
+      "count": 1,
+      "raw_exact": "729/25000",
+      "expected_exact": "729/25000",
+      "actual": 0.02916,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceAddedRatio",
+      "count": 2,
+      "raw_exact": "729/12500",
+      "expected_exact": "729/12500",
+      "actual": 0.05832,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceAddedRatio",
+      "count": 4,
+      "raw_exact": "729/6250",
+      "expected_exact": "729/6250",
+      "actual": 0.11664,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceAddedRatio",
+      "count": 59,
+      "raw_exact": "43011/25000",
+      "expected_exact": "43011/25000",
+      "actual": 1.72044,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceAddedRatio",
+      "count": 60,
+      "raw_exact": "2187/1250",
+      "expected_exact": "2187/1250",
+      "actual": 1.7495999999999998,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceAddedRatio",
+      "count": 61,
+      "raw_exact": "44469/25000",
+      "expected_exact": "44469/25000",
+      "actual": 1.77876,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceAddedRatio",
+      "count": 80,
+      "raw_exact": "1458/625",
+      "expected_exact": "1458/625",
+      "actual": 2.3327999999999998,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "DefenceAddedRatio",
+      "count": 1000,
+      "raw_exact": "729/25",
+      "expected_exact": "729/25",
+      "actual": 29.16,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "SpeedDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "SpeedDelta",
+      "count": 1,
+      "raw_exact": "13/10",
+      "expected_exact": "1",
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "SpeedDelta",
+      "count": 2,
+      "raw_exact": "13/5",
+      "expected_exact": "3",
+      "actual": 3,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "SpeedDelta",
+      "count": 4,
+      "raw_exact": "26/5",
+      "expected_exact": "5",
+      "actual": 5,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "SpeedDelta",
+      "count": 59,
+      "raw_exact": "767/10",
+      "expected_exact": "77",
+      "actual": 77,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "SpeedDelta",
+      "count": 60,
+      "raw_exact": "78",
+      "expected_exact": "78",
+      "actual": 78,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "SpeedDelta",
+      "count": 61,
+      "raw_exact": "793/10",
+      "expected_exact": "79",
+      "actual": 79,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "SpeedDelta",
+      "count": 80,
+      "raw_exact": "104",
+      "expected_exact": "104",
+      "actual": 104,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "SpeedDelta",
+      "count": 1000,
+      "raw_exact": "1300",
+      "expected_exact": "1300",
+      "actual": 1300,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalChanceBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalChanceBase",
+      "count": 1,
+      "raw_exact": "2187/125000",
+      "expected_exact": "2187/125000",
+      "actual": 0.017496,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalChanceBase",
+      "count": 2,
+      "raw_exact": "2187/62500",
+      "expected_exact": "2187/62500",
+      "actual": 0.034992,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalChanceBase",
+      "count": 4,
+      "raw_exact": "2187/31250",
+      "expected_exact": "2187/31250",
+      "actual": 0.069984,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalChanceBase",
+      "count": 59,
+      "raw_exact": "129033/125000",
+      "expected_exact": "129033/125000",
+      "actual": 1.032264,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalChanceBase",
+      "count": 60,
+      "raw_exact": "6561/6250",
+      "expected_exact": "6561/6250",
+      "actual": 1.04976,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalChanceBase",
+      "count": 61,
+      "raw_exact": "133407/125000",
+      "expected_exact": "133407/125000",
+      "actual": 1.067256,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalChanceBase",
+      "count": 80,
+      "raw_exact": "4374/3125",
+      "expected_exact": "4374/3125",
+      "actual": 1.39968,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalChanceBase",
+      "count": 1000,
+      "raw_exact": "2187/125",
+      "expected_exact": "2187/125",
+      "actual": 17.496000000000002,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalDamageBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalDamageBase",
+      "count": 1,
+      "raw_exact": "2187/62500",
+      "expected_exact": "2187/62500",
+      "actual": 0.034992,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalDamageBase",
+      "count": 2,
+      "raw_exact": "2187/31250",
+      "expected_exact": "2187/31250",
+      "actual": 0.069984,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalDamageBase",
+      "count": 4,
+      "raw_exact": "2187/15625",
+      "expected_exact": "2187/15625",
+      "actual": 0.139968,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalDamageBase",
+      "count": 59,
+      "raw_exact": "129033/62500",
+      "expected_exact": "129033/62500",
+      "actual": 2.064528,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalDamageBase",
+      "count": 60,
+      "raw_exact": "6561/3125",
+      "expected_exact": "6561/3125",
+      "actual": 2.09952,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalDamageBase",
+      "count": 61,
+      "raw_exact": "133407/62500",
+      "expected_exact": "133407/62500",
+      "actual": 2.134512,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalDamageBase",
+      "count": 80,
+      "raw_exact": "8748/3125",
+      "expected_exact": "8748/3125",
+      "actual": 2.79936,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "CriticalDamageBase",
+      "count": 1000,
+      "raw_exact": "4374/125",
+      "expected_exact": "4374/125",
+      "actual": 34.992000000000004,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusProbabilityBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusProbabilityBase",
+      "count": 1,
+      "raw_exact": "729/31250",
+      "expected_exact": "729/31250",
+      "actual": 0.023328,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusProbabilityBase",
+      "count": 2,
+      "raw_exact": "729/15625",
+      "expected_exact": "729/15625",
+      "actual": 0.046656,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusProbabilityBase",
+      "count": 4,
+      "raw_exact": "1458/15625",
+      "expected_exact": "1458/15625",
+      "actual": 0.093312,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusProbabilityBase",
+      "count": 59,
+      "raw_exact": "43011/31250",
+      "expected_exact": "43011/31250",
+      "actual": 1.376352,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusProbabilityBase",
+      "count": 60,
+      "raw_exact": "4374/3125",
+      "expected_exact": "4374/3125",
+      "actual": 1.39968,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusProbabilityBase",
+      "count": 61,
+      "raw_exact": "44469/31250",
+      "expected_exact": "44469/31250",
+      "actual": 1.423008,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusProbabilityBase",
+      "count": 80,
+      "raw_exact": "5832/3125",
+      "expected_exact": "5832/3125",
+      "actual": 1.8662400000000001,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusProbabilityBase",
+      "count": 1000,
+      "raw_exact": "2916/125",
+      "expected_exact": "2916/125",
+      "actual": 23.328000000000003,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusResistanceBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusResistanceBase",
+      "count": 1,
+      "raw_exact": "729/31250",
+      "expected_exact": "729/31250",
+      "actual": 0.023328,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusResistanceBase",
+      "count": 2,
+      "raw_exact": "729/15625",
+      "expected_exact": "729/15625",
+      "actual": 0.046656,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusResistanceBase",
+      "count": 4,
+      "raw_exact": "1458/15625",
+      "expected_exact": "1458/15625",
+      "actual": 0.093312,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusResistanceBase",
+      "count": 59,
+      "raw_exact": "43011/31250",
+      "expected_exact": "43011/31250",
+      "actual": 1.376352,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusResistanceBase",
+      "count": 60,
+      "raw_exact": "4374/3125",
+      "expected_exact": "4374/3125",
+      "actual": 1.39968,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusResistanceBase",
+      "count": 61,
+      "raw_exact": "44469/31250",
+      "expected_exact": "44469/31250",
+      "actual": 1.423008,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusResistanceBase",
+      "count": 80,
+      "raw_exact": "5832/3125",
+      "expected_exact": "5832/3125",
+      "actual": 1.8662400000000001,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "StatusResistanceBase",
+      "count": 1000,
+      "raw_exact": "2916/125",
+      "expected_exact": "2916/125",
+      "actual": 23.328000000000003,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 1,
+      "raw_exact": "2187/62500",
+      "expected_exact": "2187/62500",
+      "actual": 0.034992,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 2,
+      "raw_exact": "2187/31250",
+      "expected_exact": "2187/31250",
+      "actual": 0.069984,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 4,
+      "raw_exact": "2187/15625",
+      "expected_exact": "2187/15625",
+      "actual": 0.139968,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 59,
+      "raw_exact": "129033/62500",
+      "expected_exact": "129033/62500",
+      "actual": 2.064528,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 60,
+      "raw_exact": "6561/3125",
+      "expected_exact": "6561/3125",
+      "actual": 2.09952,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 61,
+      "raw_exact": "133407/62500",
+      "expected_exact": "133407/62500",
+      "actual": 2.134512,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 80,
+      "raw_exact": "8748/3125",
+      "expected_exact": "8748/3125",
+      "actual": 2.79936,
+      "pass": true
+    },
+    {
+      "rarity": "3",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 1000,
+      "raw_exact": "4374/125",
+      "expected_exact": "4374/125",
+      "actual": 34.992000000000004,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPDelta",
+      "count": 1,
+      "raw_exact": "30483/1000",
+      "expected_exact": "30",
+      "actual": 30,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPDelta",
+      "count": 2,
+      "raw_exact": "30483/500",
+      "expected_exact": "61",
+      "actual": 61,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPDelta",
+      "count": 4,
+      "raw_exact": "30483/250",
+      "expected_exact": "122",
+      "actual": 122,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPDelta",
+      "count": 59,
+      "raw_exact": "1798497/1000",
+      "expected_exact": "1798",
+      "actual": 1798,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPDelta",
+      "count": 60,
+      "raw_exact": "91449/50",
+      "expected_exact": "1829",
+      "actual": 1829,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPDelta",
+      "count": 61,
+      "raw_exact": "1859463/1000",
+      "expected_exact": "1859",
+      "actual": 1859,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPDelta",
+      "count": 80,
+      "raw_exact": "60966/25",
+      "expected_exact": "2439",
+      "actual": 2439,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPDelta",
+      "count": 1000,
+      "raw_exact": "30483",
+      "expected_exact": "30483",
+      "actual": 30483,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackDelta",
+      "count": 1,
+      "raw_exact": "30483/2000",
+      "expected_exact": "15",
+      "actual": 15,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackDelta",
+      "count": 2,
+      "raw_exact": "30483/1000",
+      "expected_exact": "30",
+      "actual": 30,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackDelta",
+      "count": 4,
+      "raw_exact": "30483/500",
+      "expected_exact": "61",
+      "actual": 61,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackDelta",
+      "count": 59,
+      "raw_exact": "1798497/2000",
+      "expected_exact": "899",
+      "actual": 899,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackDelta",
+      "count": 60,
+      "raw_exact": "91449/100",
+      "expected_exact": "914",
+      "actual": 914,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackDelta",
+      "count": 61,
+      "raw_exact": "1859463/2000",
+      "expected_exact": "930",
+      "actual": 930,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackDelta",
+      "count": 80,
+      "raw_exact": "30483/25",
+      "expected_exact": "1219",
+      "actual": 1219,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackDelta",
+      "count": 1000,
+      "raw_exact": "30483/2",
+      "expected_exact": "15242",
+      "actual": 15242,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceDelta",
+      "count": 1,
+      "raw_exact": "30483/2000",
+      "expected_exact": "15",
+      "actual": 15,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceDelta",
+      "count": 2,
+      "raw_exact": "30483/1000",
+      "expected_exact": "30",
+      "actual": 30,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceDelta",
+      "count": 4,
+      "raw_exact": "30483/500",
+      "expected_exact": "61",
+      "actual": 61,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceDelta",
+      "count": 59,
+      "raw_exact": "1798497/2000",
+      "expected_exact": "899",
+      "actual": 899,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceDelta",
+      "count": 60,
+      "raw_exact": "91449/100",
+      "expected_exact": "914",
+      "actual": 914,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceDelta",
+      "count": 61,
+      "raw_exact": "1859463/2000",
+      "expected_exact": "930",
+      "actual": 930,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceDelta",
+      "count": 80,
+      "raw_exact": "30483/25",
+      "expected_exact": "1219",
+      "actual": 1219,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceDelta",
+      "count": 1000,
+      "raw_exact": "30483/2",
+      "expected_exact": "15242",
+      "actual": 15242,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPAddedRatio",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPAddedRatio",
+      "count": 1,
+      "raw_exact": "486/15625",
+      "expected_exact": "486/15625",
+      "actual": 0.031104,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPAddedRatio",
+      "count": 2,
+      "raw_exact": "972/15625",
+      "expected_exact": "972/15625",
+      "actual": 0.062208,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPAddedRatio",
+      "count": 4,
+      "raw_exact": "1944/15625",
+      "expected_exact": "1944/15625",
+      "actual": 0.124416,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPAddedRatio",
+      "count": 59,
+      "raw_exact": "28674/15625",
+      "expected_exact": "28674/15625",
+      "actual": 1.8351359999999999,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPAddedRatio",
+      "count": 60,
+      "raw_exact": "5832/3125",
+      "expected_exact": "5832/3125",
+      "actual": 1.86624,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPAddedRatio",
+      "count": 61,
+      "raw_exact": "29646/15625",
+      "expected_exact": "29646/15625",
+      "actual": 1.897344,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPAddedRatio",
+      "count": 80,
+      "raw_exact": "7776/3125",
+      "expected_exact": "7776/3125",
+      "actual": 2.48832,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "HPAddedRatio",
+      "count": 1000,
+      "raw_exact": "3888/125",
+      "expected_exact": "3888/125",
+      "actual": 31.104,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackAddedRatio",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackAddedRatio",
+      "count": 1,
+      "raw_exact": "486/15625",
+      "expected_exact": "486/15625",
+      "actual": 0.031104,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackAddedRatio",
+      "count": 2,
+      "raw_exact": "972/15625",
+      "expected_exact": "972/15625",
+      "actual": 0.062208,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackAddedRatio",
+      "count": 4,
+      "raw_exact": "1944/15625",
+      "expected_exact": "1944/15625",
+      "actual": 0.124416,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackAddedRatio",
+      "count": 59,
+      "raw_exact": "28674/15625",
+      "expected_exact": "28674/15625",
+      "actual": 1.8351359999999999,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackAddedRatio",
+      "count": 60,
+      "raw_exact": "5832/3125",
+      "expected_exact": "5832/3125",
+      "actual": 1.86624,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackAddedRatio",
+      "count": 61,
+      "raw_exact": "29646/15625",
+      "expected_exact": "29646/15625",
+      "actual": 1.897344,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackAddedRatio",
+      "count": 80,
+      "raw_exact": "7776/3125",
+      "expected_exact": "7776/3125",
+      "actual": 2.48832,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "AttackAddedRatio",
+      "count": 1000,
+      "raw_exact": "3888/125",
+      "expected_exact": "3888/125",
+      "actual": 31.104,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceAddedRatio",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceAddedRatio",
+      "count": 1,
+      "raw_exact": "243/6250",
+      "expected_exact": "243/6250",
+      "actual": 0.03888,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceAddedRatio",
+      "count": 2,
+      "raw_exact": "243/3125",
+      "expected_exact": "243/3125",
+      "actual": 0.07776,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceAddedRatio",
+      "count": 4,
+      "raw_exact": "486/3125",
+      "expected_exact": "486/3125",
+      "actual": 0.15552,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceAddedRatio",
+      "count": 59,
+      "raw_exact": "14337/6250",
+      "expected_exact": "14337/6250",
+      "actual": 2.29392,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceAddedRatio",
+      "count": 60,
+      "raw_exact": "1458/625",
+      "expected_exact": "1458/625",
+      "actual": 2.3327999999999998,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceAddedRatio",
+      "count": 61,
+      "raw_exact": "14823/6250",
+      "expected_exact": "14823/6250",
+      "actual": 2.37168,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceAddedRatio",
+      "count": 80,
+      "raw_exact": "1944/625",
+      "expected_exact": "1944/625",
+      "actual": 3.1104,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "DefenceAddedRatio",
+      "count": 1000,
+      "raw_exact": "972/25",
+      "expected_exact": "972/25",
+      "actual": 38.879999999999995,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "SpeedDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "SpeedDelta",
+      "count": 1,
+      "raw_exact": "9/5",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "SpeedDelta",
+      "count": 2,
+      "raw_exact": "18/5",
+      "expected_exact": "4",
+      "actual": 4,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "SpeedDelta",
+      "count": 4,
+      "raw_exact": "36/5",
+      "expected_exact": "7",
+      "actual": 7,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "SpeedDelta",
+      "count": 59,
+      "raw_exact": "531/5",
+      "expected_exact": "106",
+      "actual": 106,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "SpeedDelta",
+      "count": 60,
+      "raw_exact": "108",
+      "expected_exact": "108",
+      "actual": 108,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "SpeedDelta",
+      "count": 61,
+      "raw_exact": "549/5",
+      "expected_exact": "110",
+      "actual": 110,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "SpeedDelta",
+      "count": 80,
+      "raw_exact": "144",
+      "expected_exact": "144",
+      "actual": 144,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "SpeedDelta",
+      "count": 1000,
+      "raw_exact": "1800",
+      "expected_exact": "1800",
+      "actual": 1800,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalChanceBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalChanceBase",
+      "count": 1,
+      "raw_exact": "729/31250",
+      "expected_exact": "729/31250",
+      "actual": 0.023328,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalChanceBase",
+      "count": 2,
+      "raw_exact": "729/15625",
+      "expected_exact": "729/15625",
+      "actual": 0.046656,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalChanceBase",
+      "count": 4,
+      "raw_exact": "1458/15625",
+      "expected_exact": "1458/15625",
+      "actual": 0.093312,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalChanceBase",
+      "count": 59,
+      "raw_exact": "43011/31250",
+      "expected_exact": "43011/31250",
+      "actual": 1.376352,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalChanceBase",
+      "count": 60,
+      "raw_exact": "4374/3125",
+      "expected_exact": "4374/3125",
+      "actual": 1.39968,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalChanceBase",
+      "count": 61,
+      "raw_exact": "44469/31250",
+      "expected_exact": "44469/31250",
+      "actual": 1.423008,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalChanceBase",
+      "count": 80,
+      "raw_exact": "5832/3125",
+      "expected_exact": "5832/3125",
+      "actual": 1.8662400000000001,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalChanceBase",
+      "count": 1000,
+      "raw_exact": "2916/125",
+      "expected_exact": "2916/125",
+      "actual": 23.328000000000003,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalDamageBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalDamageBase",
+      "count": 1,
+      "raw_exact": "729/15625",
+      "expected_exact": "729/15625",
+      "actual": 0.046656,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalDamageBase",
+      "count": 2,
+      "raw_exact": "1458/15625",
+      "expected_exact": "1458/15625",
+      "actual": 0.093312,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalDamageBase",
+      "count": 4,
+      "raw_exact": "2916/15625",
+      "expected_exact": "2916/15625",
+      "actual": 0.186624,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalDamageBase",
+      "count": 59,
+      "raw_exact": "43011/15625",
+      "expected_exact": "43011/15625",
+      "actual": 2.752704,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalDamageBase",
+      "count": 60,
+      "raw_exact": "8748/3125",
+      "expected_exact": "8748/3125",
+      "actual": 2.79936,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalDamageBase",
+      "count": 61,
+      "raw_exact": "44469/15625",
+      "expected_exact": "44469/15625",
+      "actual": 2.846016,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalDamageBase",
+      "count": 80,
+      "raw_exact": "11664/3125",
+      "expected_exact": "11664/3125",
+      "actual": 3.7324800000000002,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "CriticalDamageBase",
+      "count": 1000,
+      "raw_exact": "5832/125",
+      "expected_exact": "5832/125",
+      "actual": 46.656000000000006,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusProbabilityBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusProbabilityBase",
+      "count": 1,
+      "raw_exact": "486/15625",
+      "expected_exact": "486/15625",
+      "actual": 0.031104,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusProbabilityBase",
+      "count": 2,
+      "raw_exact": "972/15625",
+      "expected_exact": "972/15625",
+      "actual": 0.062208,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusProbabilityBase",
+      "count": 4,
+      "raw_exact": "1944/15625",
+      "expected_exact": "1944/15625",
+      "actual": 0.124416,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusProbabilityBase",
+      "count": 59,
+      "raw_exact": "28674/15625",
+      "expected_exact": "28674/15625",
+      "actual": 1.8351359999999999,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusProbabilityBase",
+      "count": 60,
+      "raw_exact": "5832/3125",
+      "expected_exact": "5832/3125",
+      "actual": 1.86624,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusProbabilityBase",
+      "count": 61,
+      "raw_exact": "29646/15625",
+      "expected_exact": "29646/15625",
+      "actual": 1.897344,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusProbabilityBase",
+      "count": 80,
+      "raw_exact": "7776/3125",
+      "expected_exact": "7776/3125",
+      "actual": 2.48832,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusProbabilityBase",
+      "count": 1000,
+      "raw_exact": "3888/125",
+      "expected_exact": "3888/125",
+      "actual": 31.104,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusResistanceBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusResistanceBase",
+      "count": 1,
+      "raw_exact": "486/15625",
+      "expected_exact": "486/15625",
+      "actual": 0.031104,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusResistanceBase",
+      "count": 2,
+      "raw_exact": "972/15625",
+      "expected_exact": "972/15625",
+      "actual": 0.062208,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusResistanceBase",
+      "count": 4,
+      "raw_exact": "1944/15625",
+      "expected_exact": "1944/15625",
+      "actual": 0.124416,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusResistanceBase",
+      "count": 59,
+      "raw_exact": "28674/15625",
+      "expected_exact": "28674/15625",
+      "actual": 1.8351359999999999,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusResistanceBase",
+      "count": 60,
+      "raw_exact": "5832/3125",
+      "expected_exact": "5832/3125",
+      "actual": 1.86624,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusResistanceBase",
+      "count": 61,
+      "raw_exact": "29646/15625",
+      "expected_exact": "29646/15625",
+      "actual": 1.897344,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusResistanceBase",
+      "count": 80,
+      "raw_exact": "7776/3125",
+      "expected_exact": "7776/3125",
+      "actual": 2.48832,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "StatusResistanceBase",
+      "count": 1000,
+      "raw_exact": "3888/125",
+      "expected_exact": "3888/125",
+      "actual": 31.104,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 1,
+      "raw_exact": "729/15625",
+      "expected_exact": "729/15625",
+      "actual": 0.046656,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 2,
+      "raw_exact": "1458/15625",
+      "expected_exact": "1458/15625",
+      "actual": 0.093312,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 4,
+      "raw_exact": "2916/15625",
+      "expected_exact": "2916/15625",
+      "actual": 0.186624,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 59,
+      "raw_exact": "43011/15625",
+      "expected_exact": "43011/15625",
+      "actual": 2.752704,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 60,
+      "raw_exact": "8748/3125",
+      "expected_exact": "8748/3125",
+      "actual": 2.79936,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 61,
+      "raw_exact": "44469/15625",
+      "expected_exact": "44469/15625",
+      "actual": 2.846016,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 80,
+      "raw_exact": "11664/3125",
+      "expected_exact": "11664/3125",
+      "actual": 3.7324800000000002,
+      "pass": true
+    },
+    {
+      "rarity": "4",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 1000,
+      "raw_exact": "5832/125",
+      "expected_exact": "5832/125",
+      "actual": 46.656000000000006,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPDelta",
+      "count": 1,
+      "raw_exact": "476297/12500",
+      "expected_exact": "38",
+      "actual": 38,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPDelta",
+      "count": 2,
+      "raw_exact": "476297/6250",
+      "expected_exact": "76",
+      "actual": 76,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPDelta",
+      "count": 4,
+      "raw_exact": "476297/3125",
+      "expected_exact": "152",
+      "actual": 152,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPDelta",
+      "count": 59,
+      "raw_exact": "28101523/12500",
+      "expected_exact": "2248",
+      "actual": 2248,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPDelta",
+      "count": 60,
+      "raw_exact": "1428891/625",
+      "expected_exact": "2286",
+      "actual": 2286,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPDelta",
+      "count": 61,
+      "raw_exact": "29054117/12500",
+      "expected_exact": "2324",
+      "actual": 2324,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPDelta",
+      "count": 80,
+      "raw_exact": "1905188/625",
+      "expected_exact": "3048",
+      "actual": 3048,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPDelta",
+      "count": 1000,
+      "raw_exact": "952594/25",
+      "expected_exact": "38104",
+      "actual": 38104,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackDelta",
+      "count": 1,
+      "raw_exact": "476297/25000",
+      "expected_exact": "19",
+      "actual": 19,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackDelta",
+      "count": 2,
+      "raw_exact": "476297/12500",
+      "expected_exact": "38",
+      "actual": 38,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackDelta",
+      "count": 4,
+      "raw_exact": "476297/6250",
+      "expected_exact": "76",
+      "actual": 76,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackDelta",
+      "count": 59,
+      "raw_exact": "28101523/25000",
+      "expected_exact": "1124",
+      "actual": 1124,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackDelta",
+      "count": 60,
+      "raw_exact": "1428891/1250",
+      "expected_exact": "1143",
+      "actual": 1143,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackDelta",
+      "count": 61,
+      "raw_exact": "29054117/25000",
+      "expected_exact": "1162",
+      "actual": 1162,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackDelta",
+      "count": 80,
+      "raw_exact": "952594/625",
+      "expected_exact": "1524",
+      "actual": 1524,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackDelta",
+      "count": 1000,
+      "raw_exact": "476297/25",
+      "expected_exact": "19052",
+      "actual": 19052,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceDelta",
+      "count": 1,
+      "raw_exact": "476297/25000",
+      "expected_exact": "19",
+      "actual": 19,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceDelta",
+      "count": 2,
+      "raw_exact": "476297/12500",
+      "expected_exact": "38",
+      "actual": 38,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceDelta",
+      "count": 4,
+      "raw_exact": "476297/6250",
+      "expected_exact": "76",
+      "actual": 76,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceDelta",
+      "count": 59,
+      "raw_exact": "28101523/25000",
+      "expected_exact": "1124",
+      "actual": 1124,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceDelta",
+      "count": 60,
+      "raw_exact": "1428891/1250",
+      "expected_exact": "1143",
+      "actual": 1143,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceDelta",
+      "count": 61,
+      "raw_exact": "29054117/25000",
+      "expected_exact": "1162",
+      "actual": 1162,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceDelta",
+      "count": 80,
+      "raw_exact": "952594/625",
+      "expected_exact": "1524",
+      "actual": 1524,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceDelta",
+      "count": 1000,
+      "raw_exact": "476297/25",
+      "expected_exact": "19052",
+      "actual": 19052,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPAddedRatio",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPAddedRatio",
+      "count": 1,
+      "raw_exact": "243/6250",
+      "expected_exact": "243/6250",
+      "actual": 0.03888,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPAddedRatio",
+      "count": 2,
+      "raw_exact": "243/3125",
+      "expected_exact": "243/3125",
+      "actual": 0.07776,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPAddedRatio",
+      "count": 4,
+      "raw_exact": "486/3125",
+      "expected_exact": "486/3125",
+      "actual": 0.15552,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPAddedRatio",
+      "count": 59,
+      "raw_exact": "14337/6250",
+      "expected_exact": "14337/6250",
+      "actual": 2.29392,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPAddedRatio",
+      "count": 60,
+      "raw_exact": "1458/625",
+      "expected_exact": "1458/625",
+      "actual": 2.3327999999999998,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPAddedRatio",
+      "count": 61,
+      "raw_exact": "14823/6250",
+      "expected_exact": "14823/6250",
+      "actual": 2.37168,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPAddedRatio",
+      "count": 80,
+      "raw_exact": "1944/625",
+      "expected_exact": "1944/625",
+      "actual": 3.1104,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "HPAddedRatio",
+      "count": 1000,
+      "raw_exact": "972/25",
+      "expected_exact": "972/25",
+      "actual": 38.879999999999995,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackAddedRatio",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackAddedRatio",
+      "count": 1,
+      "raw_exact": "243/6250",
+      "expected_exact": "243/6250",
+      "actual": 0.03888,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackAddedRatio",
+      "count": 2,
+      "raw_exact": "243/3125",
+      "expected_exact": "243/3125",
+      "actual": 0.07776,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackAddedRatio",
+      "count": 4,
+      "raw_exact": "486/3125",
+      "expected_exact": "486/3125",
+      "actual": 0.15552,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackAddedRatio",
+      "count": 59,
+      "raw_exact": "14337/6250",
+      "expected_exact": "14337/6250",
+      "actual": 2.29392,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackAddedRatio",
+      "count": 60,
+      "raw_exact": "1458/625",
+      "expected_exact": "1458/625",
+      "actual": 2.3327999999999998,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackAddedRatio",
+      "count": 61,
+      "raw_exact": "14823/6250",
+      "expected_exact": "14823/6250",
+      "actual": 2.37168,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackAddedRatio",
+      "count": 80,
+      "raw_exact": "1944/625",
+      "expected_exact": "1944/625",
+      "actual": 3.1104,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "AttackAddedRatio",
+      "count": 1000,
+      "raw_exact": "972/25",
+      "expected_exact": "972/25",
+      "actual": 38.879999999999995,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceAddedRatio",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceAddedRatio",
+      "count": 1,
+      "raw_exact": "243/5000",
+      "expected_exact": "243/5000",
+      "actual": 0.0486,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceAddedRatio",
+      "count": 2,
+      "raw_exact": "243/2500",
+      "expected_exact": "243/2500",
+      "actual": 0.0972,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceAddedRatio",
+      "count": 4,
+      "raw_exact": "243/1250",
+      "expected_exact": "243/1250",
+      "actual": 0.1944,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceAddedRatio",
+      "count": 59,
+      "raw_exact": "14337/5000",
+      "expected_exact": "14337/5000",
+      "actual": 2.8674,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceAddedRatio",
+      "count": 60,
+      "raw_exact": "729/250",
+      "expected_exact": "729/250",
+      "actual": 2.916,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceAddedRatio",
+      "count": 61,
+      "raw_exact": "14823/5000",
+      "expected_exact": "14823/5000",
+      "actual": 2.9646,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceAddedRatio",
+      "count": 80,
+      "raw_exact": "486/125",
+      "expected_exact": "486/125",
+      "actual": 3.888,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "DefenceAddedRatio",
+      "count": 1000,
+      "raw_exact": "243/5",
+      "expected_exact": "243/5",
+      "actual": 48.599999999999994,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "SpeedDelta",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "SpeedDelta",
+      "count": 1,
+      "raw_exact": "23/10",
+      "expected_exact": "2",
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "SpeedDelta",
+      "count": 2,
+      "raw_exact": "23/5",
+      "expected_exact": "5",
+      "actual": 5,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "SpeedDelta",
+      "count": 4,
+      "raw_exact": "46/5",
+      "expected_exact": "9",
+      "actual": 9,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "SpeedDelta",
+      "count": 59,
+      "raw_exact": "1357/10",
+      "expected_exact": "136",
+      "actual": 136,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "SpeedDelta",
+      "count": 60,
+      "raw_exact": "138",
+      "expected_exact": "138",
+      "actual": 138,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "SpeedDelta",
+      "count": 61,
+      "raw_exact": "1403/10",
+      "expected_exact": "140",
+      "actual": 140,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "SpeedDelta",
+      "count": 80,
+      "raw_exact": "184",
+      "expected_exact": "184",
+      "actual": 184,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "SpeedDelta",
+      "count": 1000,
+      "raw_exact": "2300",
+      "expected_exact": "2300",
+      "actual": 2300,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalChanceBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalChanceBase",
+      "count": 1,
+      "raw_exact": "729/25000",
+      "expected_exact": "729/25000",
+      "actual": 0.02916,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalChanceBase",
+      "count": 2,
+      "raw_exact": "729/12500",
+      "expected_exact": "729/12500",
+      "actual": 0.05832,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalChanceBase",
+      "count": 4,
+      "raw_exact": "729/6250",
+      "expected_exact": "729/6250",
+      "actual": 0.11664,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalChanceBase",
+      "count": 59,
+      "raw_exact": "43011/25000",
+      "expected_exact": "43011/25000",
+      "actual": 1.72044,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalChanceBase",
+      "count": 60,
+      "raw_exact": "2187/1250",
+      "expected_exact": "2187/1250",
+      "actual": 1.7495999999999998,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalChanceBase",
+      "count": 61,
+      "raw_exact": "44469/25000",
+      "expected_exact": "44469/25000",
+      "actual": 1.77876,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalChanceBase",
+      "count": 80,
+      "raw_exact": "1458/625",
+      "expected_exact": "1458/625",
+      "actual": 2.3327999999999998,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalChanceBase",
+      "count": 1000,
+      "raw_exact": "729/25",
+      "expected_exact": "729/25",
+      "actual": 29.16,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalDamageBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalDamageBase",
+      "count": 1,
+      "raw_exact": "729/12500",
+      "expected_exact": "729/12500",
+      "actual": 0.05832,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalDamageBase",
+      "count": 2,
+      "raw_exact": "729/6250",
+      "expected_exact": "729/6250",
+      "actual": 0.11664,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalDamageBase",
+      "count": 4,
+      "raw_exact": "729/3125",
+      "expected_exact": "729/3125",
+      "actual": 0.23328,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalDamageBase",
+      "count": 59,
+      "raw_exact": "43011/12500",
+      "expected_exact": "43011/12500",
+      "actual": 3.44088,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalDamageBase",
+      "count": 60,
+      "raw_exact": "2187/625",
+      "expected_exact": "2187/625",
+      "actual": 3.4991999999999996,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalDamageBase",
+      "count": 61,
+      "raw_exact": "44469/12500",
+      "expected_exact": "44469/12500",
+      "actual": 3.55752,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalDamageBase",
+      "count": 80,
+      "raw_exact": "2916/625",
+      "expected_exact": "2916/625",
+      "actual": 4.6655999999999995,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "CriticalDamageBase",
+      "count": 1000,
+      "raw_exact": "1458/25",
+      "expected_exact": "1458/25",
+      "actual": 58.32,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusProbabilityBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusProbabilityBase",
+      "count": 1,
+      "raw_exact": "243/6250",
+      "expected_exact": "243/6250",
+      "actual": 0.03888,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusProbabilityBase",
+      "count": 2,
+      "raw_exact": "243/3125",
+      "expected_exact": "243/3125",
+      "actual": 0.07776,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusProbabilityBase",
+      "count": 4,
+      "raw_exact": "486/3125",
+      "expected_exact": "486/3125",
+      "actual": 0.15552,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusProbabilityBase",
+      "count": 59,
+      "raw_exact": "14337/6250",
+      "expected_exact": "14337/6250",
+      "actual": 2.29392,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusProbabilityBase",
+      "count": 60,
+      "raw_exact": "1458/625",
+      "expected_exact": "1458/625",
+      "actual": 2.3327999999999998,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusProbabilityBase",
+      "count": 61,
+      "raw_exact": "14823/6250",
+      "expected_exact": "14823/6250",
+      "actual": 2.37168,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusProbabilityBase",
+      "count": 80,
+      "raw_exact": "1944/625",
+      "expected_exact": "1944/625",
+      "actual": 3.1104,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusProbabilityBase",
+      "count": 1000,
+      "raw_exact": "972/25",
+      "expected_exact": "972/25",
+      "actual": 38.879999999999995,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusResistanceBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusResistanceBase",
+      "count": 1,
+      "raw_exact": "243/6250",
+      "expected_exact": "243/6250",
+      "actual": 0.03888,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusResistanceBase",
+      "count": 2,
+      "raw_exact": "243/3125",
+      "expected_exact": "243/3125",
+      "actual": 0.07776,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusResistanceBase",
+      "count": 4,
+      "raw_exact": "486/3125",
+      "expected_exact": "486/3125",
+      "actual": 0.15552,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusResistanceBase",
+      "count": 59,
+      "raw_exact": "14337/6250",
+      "expected_exact": "14337/6250",
+      "actual": 2.29392,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusResistanceBase",
+      "count": 60,
+      "raw_exact": "1458/625",
+      "expected_exact": "1458/625",
+      "actual": 2.3327999999999998,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusResistanceBase",
+      "count": 61,
+      "raw_exact": "14823/6250",
+      "expected_exact": "14823/6250",
+      "actual": 2.37168,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusResistanceBase",
+      "count": 80,
+      "raw_exact": "1944/625",
+      "expected_exact": "1944/625",
+      "actual": 3.1104,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "StatusResistanceBase",
+      "count": 1000,
+      "raw_exact": "972/25",
+      "expected_exact": "972/25",
+      "actual": 38.879999999999995,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 0,
+      "raw_exact": "0",
+      "expected_exact": "0",
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 1,
+      "raw_exact": "729/12500",
+      "expected_exact": "729/12500",
+      "actual": 0.05832,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 2,
+      "raw_exact": "729/6250",
+      "expected_exact": "729/6250",
+      "actual": 0.11664,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 4,
+      "raw_exact": "729/3125",
+      "expected_exact": "729/3125",
+      "actual": 0.23328,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 59,
+      "raw_exact": "43011/12500",
+      "expected_exact": "43011/12500",
+      "actual": 3.44088,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 60,
+      "raw_exact": "2187/625",
+      "expected_exact": "2187/625",
+      "actual": 3.4991999999999996,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 61,
+      "raw_exact": "44469/12500",
+      "expected_exact": "44469/12500",
+      "actual": 3.55752,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 80,
+      "raw_exact": "2916/625",
+      "expected_exact": "2916/625",
+      "actual": 4.6655999999999995,
+      "pass": true
+    },
+    {
+      "rarity": "5",
+      "property": "BreakDamageAddedRatioBase",
+      "count": 1000,
+      "raw_exact": "1458/25",
+      "expected_exact": "1458/25",
+      "actual": 58.32,
+      "pass": true
+    }
+  ],
+  "rounding_edges": [
+    {
+      "raw_exact": "0",
+      "rounded_exact": "0"
+    },
+    {
+      "raw_exact": "4999999999/10000000000",
+      "rounded_exact": "0"
+    },
+    {
+      "raw_exact": "1/2",
+      "rounded_exact": "1"
+    },
+    {
+      "raw_exact": "5000000001/10000000000",
+      "rounded_exact": "1"
+    },
+    {
+      "raw_exact": "84999999999/10000000000",
+      "rounded_exact": "8"
+    },
+    {
+      "raw_exact": "17/2",
+      "rounded_exact": "9"
+    },
+    {
+      "raw_exact": "85000000001/10000000000",
+      "rounded_exact": "9"
+    }
+  ],
+  "user_example": {
+    "mean_exact": "11/5",
+    "count": 4,
+    "raw_exact": "44/5",
+    "rounded_exact": "9",
+    "actual_engine": 9,
+    "pass": true
+  },
+  "scripted_handler_evidence": {
+    "slider": {
+      "script": "verify-slider-ui.py",
+      "evidence": {
+        "count": 4,
+        "actual": 9,
+        "mean": 2.3,
+        "checks": [
+          "12 sliders",
+          "no +/-",
+          "input preserves node/render count",
+          "focus continuous after change",
+          "80 expands max",
+          "save/load80",
+          "invalid negative retained",
+          "rarity retains count/range"
+        ]
+      },
+      "executed_by_independent_validator": true,
+      "harness": "local DOM stand-in executes current app input/change handlers"
+    },
+    "battle_workbench": {
+      "script": "verify-battle-ui.py",
+      "evidence": {
+        "status": "PASS",
+        "checks": [
+          "wire top-level callable",
+          "default four member validation",
+          "add/remove/move chips + team focus",
+          "invalid input retained on input/change",
+          "no numeric blur rebuild",
+          "unknown token blocks run, source label retained",
+          "valid correction re-enables run",
+          "complete build edit/return preserves slot",
+          "save/load rotations",
+          "scope/log wording"
+        ]
+      },
+      "executed_by_independent_validator": true,
+      "harness": "local DOM stand-in executes current app input/change/click handlers"
+    }
+  },
+  "delegated_real_browser_evidence": {
+    "provider": "root agent, supplied task evidence",
+    "observations": [
+      "CDP continuous pointer drag13→24→release retains24",
+      "four ArrowRight events produce4 rolls, raw9.2 rounded9",
+      "exact80 expands slider and isolated-origin save/load preserves80",
+      "negative rejected",
+      "4star4roll applies7; 5star4roll applies9",
+      "detail speed119",
+      "390px width no horizontal overflow"
+    ],
+    "independently_reperformed": false
+  },
+  "full_mechanics_precheck": {
+    "status": "BLOCKED",
+    "report": "../research/mechanics-validation-contract.md",
+    "reason": "This UI validation neither implements nor verifies full event/effect coverage."
+  },
+  "generated_at": "2026-10-03T16:30:15.809675+00:00",
+  "endpoint_rebind": {
+    "status": "PASS",
+    "previous_app_sha256": "9c31a90547706c006088c17e461b57cafba1f6471bcf193956badbd627baa539",
+    "final_app_sha256": "df27b71567ccd7a0db7f446af7f09b60e9aae9f2157e57ebae1216beaedab017",
+    "approved_original_tail_hex": [
+      "0d0a0d0a0d0a"
+    ],
+    "final_tail_hex": "0a",
+    "proof": "Restoring recorded trailing LF/CRLF bytes exactly reproduces previous full-file SHA256; all preceding bytes unchanged.",
+    "other_ui_hashes_unchanged": true,
+    "engine_data_hashes_unchanged": true,
+    "numeric_retest": "not repeated; endpoint bytes have no numeric semantic change",
+    "generated_at": "2026-10-03T16:33:15.512815+00:00",
+    "post_implementation_readback": "PASS",
+    "key_handlers_reexecuted": {
+      "verify-slider-ui.py": "PASS",
+      "verify-battle-ui.py": "PASS"
+    }
+  }
+}
