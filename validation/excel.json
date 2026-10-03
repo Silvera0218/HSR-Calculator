@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "4人单目标固定条件：面板、24动作、120事件",
+  "workbook_sha256": "b45d1aa3653c9c00d6ca20a0d09ebae0efdfde1148a7aefabd1f83e6298df97d",
+  "sheets": 32,
+  "formula_error_cells": 0,
+  "cached_value_differences": 0,
+  "independent_tool": "SymPy",
+  "total_damage": 110780.60212416647,
+  "effective_events": 38,
+  "remaining_hp": 889219.3978758336,
+  "initial_break_events": [
+    8,
+    25,
+    36
+  ],
+  "corrected_initial_break_benchmark": {
+    "max_toughness_new_units": 120,
+    "toughness_multiplier": "0.9",
+    "level_base": "3767.5533",
+    "exact": "7120675737/220000",
+    "approx": "32366.7078954545"
+  },
+  "limitations": [
+    "复杂条件星魂与角色状态由条件增益和预配置动作输入",
+    "自动模拟固定速度、单敌期望值，未建立全部角色特殊状态机"
+  ]
+}
