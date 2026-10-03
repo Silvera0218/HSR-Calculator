@@ -9,3 +9,9 @@
 .substat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}.substat-control{padding:14px;background:var(--surface);border:1px solid var(--line)}.substat-control>div:first-child{display:flex;justify-content:space-between;gap:12px;margin-bottom:10px}.substat-counter{display:flex;align-items:center;gap:12px}.substat-counter button{width:38px;min-height:38px;padding:0;font-size:20px}.substat-counter b{margin-left:auto;font-variant-numeric:tabular-nums}.substat-counter span{min-width:42px;text-align:center}@media(max-width:420px){.substat-grid{grid-template-columns:1fr}}
 
 .condition-row{display:grid;grid-template-columns:minmax(180px,2fr) minmax(150px,1.5fr) 120px 90px 65px 65px;align-items:end;gap:12px;padding:14px 0;border-bottom:1px solid var(--line)}.condition-row label{min-width:0}.condition-info{grid-column:1/-1}.condition-info p{white-space:pre-line;margin:10px 0}.condition-info .hint{display:block}@media(max-width:1100px){.condition-row{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:600px){.condition-row{grid-template-columns:repeat(2,minmax(0,1fr))}.condition-row label:first-child{grid-column:1/-1}}
+/* Keep native dropdown text readable when the option popup uses its own surface. */
+select{color:#f3f4f7;color-scheme:dark}
+select option,select optgroup{color:#f3f4f7;background-color:#202735}
+select option:checked{color:#fff;background-color:#34435c}
+select option:disabled{color:#aab3c2}
+.game-panel select{color:#f3f4f7}
